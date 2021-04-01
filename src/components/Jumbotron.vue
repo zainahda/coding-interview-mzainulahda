@@ -4,7 +4,7 @@
   <b-jumbotron class="jumbotron">
     <h1>Let'Go <br> to Raja Ampat</h1>
     <p>Temukan keindahan Indonesia bersama kami</p>
-    <b-button variant="success" href="#" class="button ">More Info</b-button>
+    <b-button variant="success" href="#" class="button">More Info</b-button>
   </b-jumbotron>
 </div>
   </div>
@@ -42,15 +42,16 @@ export default {
   display: flex;
   justify-content: center;
 }
-.button {
-  margin-left: 500px;
+.btn {
+  margin-left: 550px;
 }
 
 
-@media (min-width: 375px) {
-  .button {
-  margin-left: 10px;
+@media (max-width: 375px) {
+  .btn {
+  margin-left: 0;
 }
+
 .jumbotron p{
   display: none;
 }
